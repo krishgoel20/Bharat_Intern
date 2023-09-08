@@ -29,7 +29,7 @@ input_text = StringVar()
 input_frame = Frame(app,width=312,height=50,bd=0,highlightbackground="yellow",highlightcolor="yellow",highlightthickness=2)
 input_frame.pack(side=TOP)
 
-# Input field inside 'Frame'
+# Input Field inside 'Frame'
 input_field = Entry(input_frame,font=('arial',18,'bold'),textvariable=input_text,width=50,bg="yellow",bd=0,justify=RIGHT)
 input_field.grid(row=0,column=0)
 input_field.pack(ipady=10)  
