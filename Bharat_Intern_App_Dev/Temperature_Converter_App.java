@@ -92,7 +92,7 @@ class TemperatureConverterApp extends JFrame
             else if (temp.equals("Celsius") && tempConvert.equals("Kelvin")) 
             {
                 double C = Double.parseDouble(tempinput.getText());
-                double K = (double) (C+273);
+                double K = (double) (C+273.15);
                 tempoutput.setText(String.valueOf(K) + " °K");
             }
             else if (temp.equals("Celsius") && tempConvert.equals("Celsius")) 
@@ -133,7 +133,7 @@ class TemperatureConverterApp extends JFrame
             else if (temp.equals("Kelvin") && tempConvert.equals("Celsius")) 
             {
                 double K = Double.parseDouble(tempinput.getText());
-                double C = (double) (K-273);
+                double C = (double) (K-273.15);
                 tempoutput.setText(String.valueOf(C) + " °C");
             }
         }
