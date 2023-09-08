@@ -465,21 +465,17 @@ p
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-#about .col-left 
-{
-	width: 250px;
-	height: 360px;
-}
 #about .col-right 
 {
 	width: 100%;
+	text-align: center;
 }
-#about .col-right h2 
+#about .col-right h1 
 {
-	font-size: 1.8rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
+	justify-content: center;
 }
 #about .col-right p 
 {
