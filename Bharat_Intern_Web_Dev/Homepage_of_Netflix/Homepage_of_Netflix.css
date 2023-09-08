@@ -200,7 +200,7 @@
     align-items: center;
     flex-wrap: wrap;
     border-top: 6px solid #333;
-    padding: 50px 0;
+    padding: 50px 12%;
   }
   .row3
   {
@@ -217,7 +217,7 @@
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    border-top: 6px solid #333;
+    border-top: 6px solid #333 ;
     padding: 50px 0;
   }
   .text-col
