@@ -14,7 +14,7 @@ class TemperatureConverterApp extends JFrame
         Container c = getContentPane();
         c.setLayout(null);
         c.setBackground(Color.WHITE);
-        setTitle("Temperature Converter");
+        setTitle("Temperature Converter App");
         setSize(400,300);
         setResizable(true);
         setVisible(true);
