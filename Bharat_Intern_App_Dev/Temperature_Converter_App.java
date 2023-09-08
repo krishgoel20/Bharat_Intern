@@ -2,19 +2,19 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class TemperatureConverter extends JFrame
+class TemperatureConverterApp extends JFrame
 {
     JTextField tempinput,tempoutput;
     ButtonListener buttonListener;
     JLabel inputlabel,convertlabel,outputlabel,imglabel;
     JComboBox <String> comboBox1,comboBox2;
 
-    public TemperatureConverter()
+    public TemperatureConverterApp()
     {
         Container c = getContentPane();
         c.setLayout(null);
         c.setBackground(Color.WHITE);
-        setTitle("Temperature Converter");
+        setTitle("Temperature Converter App");
         setSize(400,300);
         setResizable(true);
         setVisible(true);
@@ -92,7 +92,7 @@ class TemperatureConverter extends JFrame
             else if (temp.equals("Celsius") && tempConvert.equals("Kelvin")) 
             {
                 double C = Double.parseDouble(tempinput.getText());
-                double K = (double) (C+273);
+                double K = (double) (C+273.15);
                 tempoutput.setText(String.valueOf(K) + " °K");
             }
             else if (temp.equals("Celsius") && tempConvert.equals("Celsius")) 
@@ -133,7 +133,7 @@ class TemperatureConverter extends JFrame
             else if (temp.equals("Kelvin") && tempConvert.equals("Celsius")) 
             {
                 double K = Double.parseDouble(tempinput.getText());
-                double C = (double) (K-273);
+                double C = (double) (K-273.15);
                 tempoutput.setText(String.valueOf(C) + " °C");
             }
         }
@@ -141,6 +141,6 @@ class TemperatureConverter extends JFrame
 
     public static void main(String[] args)
     {
-        new TemperatureConverter();
+        new TemperatureConverterApp();
     }
 }
