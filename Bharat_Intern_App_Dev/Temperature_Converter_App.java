@@ -2,14 +2,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class TemperatureConverter extends JFrame
+class TemperatureConverterApp extends JFrame
 {
     JTextField tempinput,tempoutput;
     ButtonListener buttonListener;
     JLabel inputlabel,convertlabel,outputlabel,imglabel;
     JComboBox <String> comboBox1,comboBox2;
 
-    public TemperatureConverter()
+    public TemperatureConverterApp()
     {
         Container c = getContentPane();
         c.setLayout(null);
@@ -141,6 +141,6 @@ class TemperatureConverter extends JFrame
 
     public static void main(String[] args)
     {
-        new TemperatureConverter();
+        new TemperatureConverterApp();
     }
 }
