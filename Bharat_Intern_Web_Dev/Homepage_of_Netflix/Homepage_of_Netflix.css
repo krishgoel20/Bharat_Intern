@@ -122,18 +122,18 @@
     margin: auto;
     font-size: 50px;
     text-align: center;
-    font-weight: 1000;
+    font-weight: 900;
     margin-bottom: 20px;
   }
   .header-content h2
   {
     font-weight: 300;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 28px;
   }
   .header-content form h3
   {
-    font-size: 25px;
+    font-size: 22px;
     margin: 18px 0;
     text-align: center;
     font-weight: 300;
