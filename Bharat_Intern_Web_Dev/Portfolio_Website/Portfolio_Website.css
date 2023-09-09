@@ -356,6 +356,9 @@ p
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
 }
 #services .service-item h2 
 {
@@ -366,6 +369,7 @@ p
 }
 #services .service-item p 
 {
+	font-size: 1.5rem;
 	color: white;
 	text-align: left;
 }
@@ -426,6 +430,7 @@ p
 }
 #projects .project-info p 
 {
+	font-size: 1.5rem;
 	color: white;
 }
 #projects .project-img 
@@ -483,17 +488,23 @@ p
 }
 #about .col-right p 
 {
-	margin-bottom: 20px;
+	font-size: 20px;
+	margin-bottom: 40px;
 }
 #about .col-right .cta 
 {
 	color: black;
 	margin-bottom: 50px;
-	padding: 10px 20px;
+	padding: 10px 30px;
 	font-size: 2rem;
-	display: block;
-	margin: 0 auto;
+	display: inline-block;
 	text-align: center;
+	border: 2px solid crimson;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	margin: 0 auto;
+	width: auto;
 }
 #about .col-left .about-img 
 {
